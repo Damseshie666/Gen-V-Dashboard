@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Dashboard</title>
+    <link rel="stylesheet" href = "styles.css">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-tachometer-alt"></i> Dashboard</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="card">
+                
+                <h2>Sales Overview</h2>
+                <img src="sales.png" alt="">
+                <canvas id="salesChart"></canvas>
+            </section>
+            
+            <section class="card">
+                <h2>Website Traffic</h2>
+                <img src="traffic.png" alt="">
+                <canvas id="trafficChart"></canvas>
+            </section>
+
+            <section class="card">
+                <h2>User Engagement</h2>
+                <img src="user.png" alt="">
+                <canvas id="engagementChart"></canvas>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Dashboard Inc.</p>
+        </footer>
+    </div>
+    
+    
+</body>
+</html>
